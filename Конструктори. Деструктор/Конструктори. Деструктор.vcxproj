@@ -127,10 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="College\College.h" />
+    <ClInclude Include="College\Student.h" />
     <ClInclude Include="Contact.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Contact-main.cpp" />
+    <ClCompile Include="College\College-main.cpp" />
+    <ClCompile Include="College\College.cpp" />
+    <ClCompile Include="College\Contact-main.cpp" />
+    <ClCompile Include="College\Source.cpp" />
+    <ClCompile Include="College\Student-main.cpp" />
+    <ClCompile Include="College\Student.cpp" />
     <ClCompile Include="Contact.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
